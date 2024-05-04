@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CEP e Clima | Atividade 10</title>
+</head>
+<body>
+  <h2>CEP e Clima</h2>
+  
+  <label for="cepInput">Digite o CEP:</label>
+  <input type="text" id="cepInput">
+  <button onclick="consultarCep()">Consultar CEP</button>
+  
+  <div id="cepResult"></div>
+  
+  <label for="cidadeInput">Digite a cidade:</label>
+  <input type="text" id="cidadeInput">
+  <label for="paisInput">Digite o país:</label>
+  <input type="text" id="paisInput" value="br">
+  <button onclick="consultarClima()">Consultar Clima</button>
+  
+  <div id="climaResult"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
